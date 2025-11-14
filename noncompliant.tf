@@ -4,7 +4,7 @@ resource "azurerm_cognitive_deployment" "openai_model_noncompliant" {
 
   model {
     format  = "OpenAI"
-    name    = "GPT-4.5"   # costly model → violates rule
+    name    = "o1"   # costly model → violates rule
     version = "2024-05-01"
   }
 
